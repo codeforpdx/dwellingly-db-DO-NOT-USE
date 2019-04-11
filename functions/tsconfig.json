@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "alwaysStrict": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "noImplicitReturns": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "inlineSourceMap": true,
+    "target": "es5",
+    "allowJs": true,
+    "removeComments": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
