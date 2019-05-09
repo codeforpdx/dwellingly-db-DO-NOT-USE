@@ -1,1 +1,2 @@
-- [Ashley Boucher](https://github.com/ahl389)
+-   [Ashley Boucher](https://github.com/ahl389)
+-   [Kelly de Vries](https://github.com/kdv24)
