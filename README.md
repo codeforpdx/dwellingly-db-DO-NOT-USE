@@ -100,7 +100,8 @@
 
 1. `$ git clone https://github.com/codeforpdx/dwellingly-db.git`
 2. OPTIONAL: `npm i -g firebase-tools` if no firebase tools are installed
-3. Generate a new ServiceAccountKey.json file
+3. Get added to the Join firebase project using the email address you'd like to login to firebase with
+3. Once added to the project: Generate a new ServiceAccountKey.json file
    - go to console.firebase.google.com
    - click the gear next to project overview and select: Users and permissions
    - select: Service accounts from the menu and select Generate new private key
@@ -108,7 +109,7 @@
 4. cd into `/dwellingly-db/functions`
 5. `$ npm install`
 6. `$ firebase login`
-7. follow login instructions, if asked to overwrite anything, select no
+7. Follow login instructions and login using the email you provided earlier. If asked to overwrite anything, select no
 8. `$ npm run build:dev` to generate the lib folder to be served
 9. `$ npm run serve` to start the server on localhost:7777, must be run from `/dwellingly-db/functions`
 10. OPTIONAL: `$ npm run server` for a verbose debugging script when starting the server
