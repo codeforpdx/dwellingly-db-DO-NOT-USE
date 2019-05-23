@@ -37,6 +37,7 @@
     "ts-runtime": "^0.1.35",
     "tslib": "^1.9.3",
     "uuid": "^3.3.2"
+    
   },
   "devDependencies": {
     "@types/node": "^10.11.7",
