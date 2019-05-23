@@ -99,7 +99,7 @@
 #### Setup
 
 1. `$ git clone https://github.com/codeforpdx/dwellingly-db.git`
-2. OPTIONAL: `npm i -g firebase-tools` if no firebase tools are installed
+2. `npm install firebase-tools@6.8.0 -g` 
 3. Get added to the Join firebase project using the email address you'd like to login to firebase with
 3. Once added to the project: Generate a new ServiceAccountKey.json file
    - go to console.firebase.google.com
